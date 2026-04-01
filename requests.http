@@ -1,0 +1,13 @@
+### Listar utilizadores
+GET http://localhost:8080/api/users
+
+### Criar utilizador
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "email": "jorge@ytgrowth.io",
+    "name": "Jorge Parreira",
+    "passwordHash": "temp123",
+    "plan": "PRO"
+}
